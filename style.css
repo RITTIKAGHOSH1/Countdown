@@ -7,26 +7,30 @@ body{
     justify-content: center;
 
     font-family: cursive;
-    background-color: rgb(152, 75, 224);
+    background: linear-gradient(to left bottom, rgb(13, 108, 108), rgb(12, 12, 12) ,
+    lightblue);
     overflow: hidden;
 }
 
-h2{
-    color: aliceblue;
+h1{
+    color: rgb(239, 239, 12);
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
+    font-size: 2em;
+    font-style:normal;
 }
 .year{
     font-size: 5em;
-    color: wheat;
+    color: rgb(236, 15, 30);
     font-weight: bold;
 }
 .countdown{
     margin: 30px;
-    background-color: rgb(0,0,0,.1);
+    background: linear-gradient(to left bottom, lightblue, lightpink ,
+    lightblue);
     width: 100%;
-    color: white;
+    color: rgb(12, 12, 12);
     height: 120px;
     display: flex;
     justify-content: center;
@@ -68,4 +72,5 @@ h2{
 }
 .countdown #second::before{
     content: "Seconds";
+    color: black;
 }

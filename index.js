@@ -3,7 +3,7 @@ const hr=document.getElementById("hour")
 const min=document.getElementById("minute")
 const sec=document.getElementById("second")
 
-const newYearTime=new Date("Aug 21 2024 00:00:00").getTime()
+const newYearTime=new Date("August 21 2024 00:00:00").getTime()
 
 updateCountdown()
 
